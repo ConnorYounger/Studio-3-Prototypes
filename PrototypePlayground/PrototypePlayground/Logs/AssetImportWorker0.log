@@ -1,0 +1,1645 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16348 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Connor Stuff/Unity/PrototypePlayground/PrototypePlayground
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50041
+Successfully changed project path to: F:/Connor Stuff/Unity/PrototypePlayground/PrototypePlayground
+F:/Connor Stuff/Unity/PrototypePlayground/PrototypePlayground
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 52.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Connor Stuff/Unity/PrototypePlayground/PrototypePlayground/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   
+    VRAM:     2988 MB
+    Driver:   27.21.14.6677
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.021689 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 57.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.763 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001088 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.004 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.8 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1897.
+Total: 1.854900 ms (FindLiveObjects: 0.152900 ms CreateObjectMapping: 0.043200 ms MarkObjects: 1.539900 ms  DeleteObjects: 0.117300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/TDPrototype/TDEnemy.cs
+  artifactKey: Guid(700aa4815f034af40a6ba23579d0de0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TDPrototype/TDEnemy.cs using Guid(700aa4815f034af40a6ba23579d0de0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edaf22d05c924307c3bf824447942e9b') in 0.333261 seconds
+  Import took 0.354201 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001452 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.4 MB.
+System memory in use after: 93.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1900.
+Total: 1.838100 ms (FindLiveObjects: 0.157900 ms CreateObjectMapping: 0.046500 ms MarkObjects: 1.518400 ms  DeleteObjects: 0.114400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001012 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.4 MB.
+System memory in use after: 93.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1903.
+Total: 1.881400 ms (FindLiveObjects: 0.176100 ms CreateObjectMapping: 0.041700 ms MarkObjects: 1.549500 ms  DeleteObjects: 0.113200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.085022 seconds.
+  path: Assets/Scripts/TDPrototype/TDEnemy.cs
+  artifactKey: Guid(700aa4815f034af40a6ba23579d0de0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TDPrototype/TDEnemy.cs using Guid(700aa4815f034af40a6ba23579d0de0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381d618ea7deefc1eba57dd742d1a38b') in 0.007934 seconds
+  Import took 0.011591 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001088 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.5 MB.
+System memory in use after: 93.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1906.
+Total: 1.700100 ms (FindLiveObjects: 0.162900 ms CreateObjectMapping: 0.050600 ms MarkObjects: 1.391600 ms  DeleteObjects: 0.093900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.966 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.5 MB.
+System memory in use after: 93.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1909.
+Total: 2.167100 ms (FindLiveObjects: 0.153500 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.819700 ms  DeleteObjects: 0.148400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 708.545723 seconds.
+  path: Assets/Scripts/TDPrototype/TDEnemy.cs
+  artifactKey: Guid(700aa4815f034af40a6ba23579d0de0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TDPrototype/TDEnemy.cs using Guid(700aa4815f034af40a6ba23579d0de0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af03179a601979fabbf0c87310172058') in 0.011720 seconds
+  Import took 0.051534 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.5 MB.
+System memory in use after: 93.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 2.198200 ms (FindLiveObjects: 0.428800 ms CreateObjectMapping: 0.084200 ms MarkObjects: 1.568100 ms  DeleteObjects: 0.115500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.259821 seconds.
+  path: Assets/Scripts/TDPrototype/TDEnemy.cs
+  artifactKey: Guid(700aa4815f034af40a6ba23579d0de0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TDPrototype/TDEnemy.cs using Guid(700aa4815f034af40a6ba23579d0de0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad1c26a23db73eddff6d8efb06371f8') in 0.007012 seconds
+  Import took 0.010863 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001007 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.931 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.5 MB.
+System memory in use after: 93.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1915.
+Total: 1.834500 ms (FindLiveObjects: 0.175500 ms CreateObjectMapping: 0.056600 ms MarkObjects: 1.488400 ms  DeleteObjects: 0.113000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.897471 seconds.
+  path: Assets/Scripts/TDPrototype/TDEnemy.cs
+  artifactKey: Guid(700aa4815f034af40a6ba23579d0de0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TDPrototype/TDEnemy.cs using Guid(700aa4815f034af40a6ba23579d0de0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1243c22b7a2e3dfebb9cc4a1a3006020') in 0.009204 seconds
+  Import took 0.012807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.228072 seconds.
+  path: Assets/Scripts/TDPrototype/TDEnemy.cs
+  artifactKey: Guid(700aa4815f034af40a6ba23579d0de0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TDPrototype/TDEnemy.cs using Guid(700aa4815f034af40a6ba23579d0de0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1243c22b7a2e3dfebb9cc4a1a3006020') in 0.006615 seconds
+  Import took 0.010312 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001364 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.897 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.5 MB.
+System memory in use after: 93.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1918.
+Total: 2.605500 ms (FindLiveObjects: 0.141700 ms CreateObjectMapping: 0.058400 ms MarkObjects: 2.288000 ms  DeleteObjects: 0.116000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.931 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.5 MB.
+System memory in use after: 93.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1921.
+Total: 1.679800 ms (FindLiveObjects: 0.165200 ms CreateObjectMapping: 0.051200 ms MarkObjects: 1.380600 ms  DeleteObjects: 0.082000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.297328 seconds.
+  path: Assets/Scripts/TDPrototype/TDEnemy.cs
+  artifactKey: Guid(700aa4815f034af40a6ba23579d0de0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TDPrototype/TDEnemy.cs using Guid(700aa4815f034af40a6ba23579d0de0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f820b53c00b08415448c64292a6730b5') in 0.008075 seconds
+  Import took 0.030126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.404698 seconds.
+  path: Assets/Prefab/TDPrototype/Enemy.prefab
+  artifactKey: Guid(2b72a073379c9ab4ab5f6369241dfa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/TDPrototype/Enemy.prefab using Guid(2b72a073379c9ab4ab5f6369241dfa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 'BaseEnemy' is missing the class attribute 'ExtensionOfNativeClass'!
+
+GameObject (named 'Enemy') references runtime script in scene file. Fixing!
+
+'BaseEnemy' is missing the class attribute 'ExtensionOfNativeClass'!
+
+'BaseEnemy' is missing the class attribute 'ExtensionOfNativeClass'!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/Scripting/ManagedReference/SerializableManagedRef.cpp line 115]
+
+ -> (artifact id: '5013a5d764ada201e6102ffe1f980ef1') in 0.808711 seconds
+  Import took 0.832480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.285679 seconds.
+  path: Assets/Prefab/TDPrototype/Enemy.prefab
+  artifactKey: Guid(2b72a073379c9ab4ab5f6369241dfa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/TDPrototype/Enemy.prefab using Guid(2b72a073379c9ab4ab5f6369241dfa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43aaf6b915f3871b4a9d4a21b1b8d23') in 0.019279 seconds
+  Import took 0.028261 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000986 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.7 MB.
+System memory in use after: 96.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1932.
+Total: 1.786000 ms (FindLiveObjects: 0.160100 ms CreateObjectMapping: 0.045700 ms MarkObjects: 1.470800 ms  DeleteObjects: 0.108600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.627144 seconds.
+  path: Assets/Scripts/TDPrototype/TDEnemySpawnManager.cs
+  artifactKey: Guid(4a17b39a9ab526f41905d6dcad6ffada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TDPrototype/TDEnemySpawnManager.cs using Guid(4a17b39a9ab526f41905d6dcad6ffada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042e9f5597f25bf8607f5ced1ea6adad') in 0.023878 seconds
+  Import took 0.044103 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001066 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.947 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.7 MB.
+System memory in use after: 96.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1936.
+Total: 1.838400 ms (FindLiveObjects: 0.163900 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.509400 ms  DeleteObjects: 0.117100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001019 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.913 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.7 MB.
+System memory in use after: 96.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1939.
+Total: 1.792100 ms (FindLiveObjects: 0.168600 ms CreateObjectMapping: 0.053300 ms MarkObjects: 1.429800 ms  DeleteObjects: 0.139600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 515.684607 seconds.
+  path: Assets/Scripts/TDPrototype/TDEnemySpawnManager.cs
+  artifactKey: Guid(4a17b39a9ab526f41905d6dcad6ffada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TDPrototype/TDEnemySpawnManager.cs using Guid(4a17b39a9ab526f41905d6dcad6ffada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91cecdc1f0e1143c5327ab6e158c184') in 0.012012 seconds
+  Import took 0.016090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.270507 seconds.
+  path: Assets/Prefab/TDPrototype/Enemy.prefab
+  artifactKey: Guid(2b72a073379c9ab4ab5f6369241dfa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/TDPrototype/Enemy.prefab using Guid(2b72a073379c9ab4ab5f6369241dfa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e9e759c45928aea6c5d1ec9ae82474') in 0.081840 seconds
+  Import took 0.154510 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001848 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.7 MB.
+System memory in use after: 96.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1943.
+Total: 2.579700 ms (FindLiveObjects: 0.193700 ms CreateObjectMapping: 0.045200 ms MarkObjects: 2.203600 ms  DeleteObjects: 0.136000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001283 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.7 MB.
+System memory in use after: 96.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1946.
+Total: 1.946000 ms (FindLiveObjects: 0.176000 ms CreateObjectMapping: 0.050700 ms MarkObjects: 1.618300 ms  DeleteObjects: 0.100200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001363 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 96.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1949.
+Total: 1.867500 ms (FindLiveObjects: 0.160000 ms CreateObjectMapping: 0.048600 ms MarkObjects: 1.543900 ms  DeleteObjects: 0.114200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000994 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 96.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1952.
+Total: 1.799600 ms (FindLiveObjects: 0.157500 ms CreateObjectMapping: 0.046400 ms MarkObjects: 1.478100 ms  DeleteObjects: 0.116700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001082 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.947 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 96.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1955.
+Total: 2.166100 ms (FindLiveObjects: 0.193100 ms CreateObjectMapping: 0.047700 ms MarkObjects: 1.672100 ms  DeleteObjects: 0.252200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001492 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 96.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1958.
+Total: 1.786200 ms (FindLiveObjects: 0.159200 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.469500 ms  DeleteObjects: 0.113600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 96.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1961.
+Total: 1.847300 ms (FindLiveObjects: 0.200400 ms CreateObjectMapping: 0.050600 ms MarkObjects: 1.503400 ms  DeleteObjects: 0.091900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001371 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 96.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1964.
+Total: 1.956400 ms (FindLiveObjects: 0.158800 ms CreateObjectMapping: 0.045100 ms MarkObjects: 1.615700 ms  DeleteObjects: 0.135900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000982 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 96.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1967.
+Total: 1.978900 ms (FindLiveObjects: 0.309000 ms CreateObjectMapping: 0.155200 ms MarkObjects: 1.396000 ms  DeleteObjects: 0.117900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 96.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1970.
+Total: 2.099900 ms (FindLiveObjects: 0.248100 ms CreateObjectMapping: 0.106400 ms MarkObjects: 1.619700 ms  DeleteObjects: 0.124500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001617 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.250 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 96.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1973.
+Total: 2.940400 ms (FindLiveObjects: 0.178900 ms CreateObjectMapping: 0.052200 ms MarkObjects: 2.619200 ms  DeleteObjects: 0.088800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001182 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 96.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1976.
+Total: 2.301100 ms (FindLiveObjects: 0.178300 ms CreateObjectMapping: 0.055700 ms MarkObjects: 1.976300 ms  DeleteObjects: 0.089500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000999 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 96.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1979.
+Total: 1.889800 ms (FindLiveObjects: 0.147600 ms CreateObjectMapping: 0.041700 ms MarkObjects: 1.526500 ms  DeleteObjects: 0.172900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.925 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 96.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1982.
+Total: 2.425300 ms (FindLiveObjects: 0.420800 ms CreateObjectMapping: 0.080800 ms MarkObjects: 1.804300 ms  DeleteObjects: 0.117500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001332 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.910 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 96.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1985.
+Total: 1.759500 ms (FindLiveObjects: 0.172700 ms CreateObjectMapping: 0.051400 ms MarkObjects: 1.427200 ms  DeleteObjects: 0.107400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001067 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.609 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1988.
+Total: 2.449500 ms (FindLiveObjects: 0.186700 ms CreateObjectMapping: 0.060100 ms MarkObjects: 2.084000 ms  DeleteObjects: 0.116800 ms)
+
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(3d5593aa8f7a34b4c919cd1b1dc62cc0) path("Assets/Scripts/TDPrototype/TDBasicEnemy.cs") state(2)
+Registering precompiled user dll's ...
+Registered in 0.001406 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.397 seconds
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(3d5593aa8f7a34b4c919cd1b1dc62cc0) path("Assets/Scripts/TDPrototype/TDBasicEnemy.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1990.
+Total: 1.910200 ms (FindLiveObjects: 0.211500 ms CreateObjectMapping: 0.064000 ms MarkObjects: 1.519300 ms  DeleteObjects: 0.114400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001121 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.884 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1994.
+Total: 1.881300 ms (FindLiveObjects: 0.186400 ms CreateObjectMapping: 0.054800 ms MarkObjects: 1.531500 ms  DeleteObjects: 0.107700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001017 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1997.
+Total: 1.924800 ms (FindLiveObjects: 0.185700 ms CreateObjectMapping: 0.050200 ms MarkObjects: 1.573900 ms  DeleteObjects: 0.114100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001349 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2000.
+Total: 1.832500 ms (FindLiveObjects: 0.165200 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.507900 ms  DeleteObjects: 0.113500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001174 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.925 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2003.
+Total: 1.810600 ms (FindLiveObjects: 0.162900 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.488200 ms  DeleteObjects: 0.116900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001105 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2006.
+Total: 2.918700 ms (FindLiveObjects: 0.645400 ms CreateObjectMapping: 0.162500 ms MarkObjects: 1.985600 ms  DeleteObjects: 0.124000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001140 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.960 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2009.
+Total: 1.718300 ms (FindLiveObjects: 0.156600 ms CreateObjectMapping: 0.043000 ms MarkObjects: 1.410700 ms  DeleteObjects: 0.106800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001212 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2012.
+Total: 2.159100 ms (FindLiveObjects: 0.173400 ms CreateObjectMapping: 0.099200 ms MarkObjects: 1.770400 ms  DeleteObjects: 0.115000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001063 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2015.
+Total: 3.770900 ms (FindLiveObjects: 0.440300 ms CreateObjectMapping: 0.094500 ms MarkObjects: 3.081800 ms  DeleteObjects: 0.153100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002305 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2018.
+Total: 1.765300 ms (FindLiveObjects: 0.180400 ms CreateObjectMapping: 0.048000 ms MarkObjects: 1.432100 ms  DeleteObjects: 0.103900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001258 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2021.
+Total: 1.750700 ms (FindLiveObjects: 0.173400 ms CreateObjectMapping: 0.050100 ms MarkObjects: 1.444100 ms  DeleteObjects: 0.082200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000997 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2024.
+Total: 1.864600 ms (FindLiveObjects: 0.159100 ms CreateObjectMapping: 0.044900 ms MarkObjects: 1.548500 ms  DeleteObjects: 0.111100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001200 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2027.
+Total: 1.892500 ms (FindLiveObjects: 0.180300 ms CreateObjectMapping: 0.056500 ms MarkObjects: 1.545900 ms  DeleteObjects: 0.108900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001053 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.937 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2030.
+Total: 2.558600 ms (FindLiveObjects: 0.211300 ms CreateObjectMapping: 0.051400 ms MarkObjects: 2.170500 ms  DeleteObjects: 0.123700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001259 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.044 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2033.
+Total: 1.946600 ms (FindLiveObjects: 0.181000 ms CreateObjectMapping: 0.050400 ms MarkObjects: 1.582000 ms  DeleteObjects: 0.132400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001400 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.254 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2036.
+Total: 1.776100 ms (FindLiveObjects: 0.187600 ms CreateObjectMapping: 0.054000 ms MarkObjects: 1.444000 ms  DeleteObjects: 0.089400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001059 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2039.
+Total: 2.490700 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.042400 ms MarkObjects: 2.184000 ms  DeleteObjects: 0.101100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001027 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2042.
+Total: 2.291900 ms (FindLiveObjects: 0.177800 ms CreateObjectMapping: 0.052000 ms MarkObjects: 1.942600 ms  DeleteObjects: 0.118400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.915 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2045.
+Total: 1.948200 ms (FindLiveObjects: 0.167300 ms CreateObjectMapping: 0.043700 ms MarkObjects: 1.643900 ms  DeleteObjects: 0.092000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001352 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2048.
+Total: 1.970300 ms (FindLiveObjects: 0.223700 ms CreateObjectMapping: 0.045000 ms MarkObjects: 1.586800 ms  DeleteObjects: 0.113600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001080 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.894 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2051.
+Total: 1.995900 ms (FindLiveObjects: 0.171400 ms CreateObjectMapping: 0.048000 ms MarkObjects: 1.667100 ms  DeleteObjects: 0.108300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001116 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.907 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2054.
+Total: 1.932400 ms (FindLiveObjects: 0.185100 ms CreateObjectMapping: 0.054600 ms MarkObjects: 1.576600 ms  DeleteObjects: 0.114900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001164 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2057.
+Total: 1.811400 ms (FindLiveObjects: 0.187300 ms CreateObjectMapping: 0.056600 ms MarkObjects: 1.484500 ms  DeleteObjects: 0.082000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001066 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2060.
+Total: 2.066400 ms (FindLiveObjects: 0.174700 ms CreateObjectMapping: 0.043400 ms MarkObjects: 1.685700 ms  DeleteObjects: 0.161900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001032 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2063.
+Total: 2.304100 ms (FindLiveObjects: 0.181900 ms CreateObjectMapping: 0.051700 ms MarkObjects: 1.984400 ms  DeleteObjects: 0.084900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001081 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2066.
+Total: 2.047300 ms (FindLiveObjects: 0.190300 ms CreateObjectMapping: 0.053300 ms MarkObjects: 1.718400 ms  DeleteObjects: 0.084400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001059 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2069.
+Total: 2.338400 ms (FindLiveObjects: 0.178900 ms CreateObjectMapping: 0.054300 ms MarkObjects: 2.013400 ms  DeleteObjects: 0.090900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001018 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2072.
+Total: 2.543900 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.081200 ms MarkObjects: 2.063000 ms  DeleteObjects: 0.114500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001459 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in F:\Connor Stuff\Unity\PrototypePlayground\PrototypePlayground\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+
+(Filename: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/Scripts/Editor/NodeEditorAssetModProcessor.cs Line: 55)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2075.
+Total: 2.378200 ms (FindLiveObjects: 0.202800 ms CreateObjectMapping: 0.055000 ms MarkObjects: 2.010400 ms  DeleteObjects: 0.108900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
